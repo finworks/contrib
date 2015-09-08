@@ -1,0 +1,15 @@
+{
+	"category" : "UserErrorSpike-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"anAttribute",
+		"raiseError" ],
+	"name" : "FakeObjectForTestingCallbackErrors",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

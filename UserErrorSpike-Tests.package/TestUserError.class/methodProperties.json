@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buttonLabelled:" : "IwanVosloo 9/2/2015 18:29",
+		"checkboxLabelled:" : "IwanVosloo 09/08/2015 01:25",
+		"componentClass" : "IwanVosloo 9/2/2015 17:07",
+		"configureTestApp:" : "IwanVosloo 9/7/2015 10:53",
+		"ensureCheckbox:isChecked:" : "IwanVosloo 09/08/2015 02:11",
+		"inputLabelled:" : "Anonymous 09/07/2015 08:23",
+		"renderedErrorsMatch:" : "IwanVosloo 9/8/2015 08:30",
+		"setUp" : "IwanVosloo 9/8/2015 07:59",
+		"tearDown" : "IwanVosloo 9/8/2015 07:59",
+		"testInputDoesNotReachDomainIfValidationFails" : "IwanVosloo 09/08/2015 01:51",
+		"testInputReachesDomainIfNoErrors" : "IwanVosloo 09/08/2015 01:51",
+		"testInputRolledBackOnUIError" : "IwanVosloo 09/08/2015 01:53",
+		"thereAreErrors" : "IwanVosloo 9/8/2015 08:37" } }

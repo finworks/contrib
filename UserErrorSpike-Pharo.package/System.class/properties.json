@@ -1,0 +1,14 @@
+{
+	"category" : "UserErrorSpike-Pharo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "System",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

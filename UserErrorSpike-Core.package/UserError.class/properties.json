@@ -1,0 +1,14 @@
+{
+	"category" : "UserErrorSpike-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UserError",
+	"pools" : [
+		 ],
+	"super" : "MAError",
+	"type" : "normal" }

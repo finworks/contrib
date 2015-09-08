@@ -1,0 +1,15 @@
+{
+	"category" : "UserErrorSpike-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"domainObject" ],
+	"name" : "UserErrorExampleApp",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

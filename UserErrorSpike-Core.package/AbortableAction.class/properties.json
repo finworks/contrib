@@ -1,0 +1,14 @@
+{
+	"category" : "UserErrorSpike-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block" ],
+	"name" : "AbortableAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "variable" }
