@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"anAttribute" : "IwanVosloo 9/14/2015 14:02",
+		"anAttribute:" : "IwanVosloo 9/14/2015 14:02",
+		"anotherAttribute" : "IwanVosloo 9/14/2015 16:19",
+		"anotherAttribute:" : "IwanVosloo 9/14/2015 16:19",
+		"doSomething" : "IwanVosloo 9/16/2015 10:02",
+		"flipToggle" : "IwanVosloo 9/16/2015 09:47",
+		"initialize" : "IwanVosloo 9/15/2015 14:32",
+		"toggleIsTrue" : "IwanVosloo 9/16/2015 09:47" } }

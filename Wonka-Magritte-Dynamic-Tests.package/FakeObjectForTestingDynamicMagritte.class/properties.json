@@ -1,0 +1,16 @@
+{
+	"category" : "Wonka-Magritte-Dynamic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"anAttribute",
+		"anOtherAttribute",
+		"toggle" ],
+	"name" : "FakeObjectForTestingDynamicMagritte",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

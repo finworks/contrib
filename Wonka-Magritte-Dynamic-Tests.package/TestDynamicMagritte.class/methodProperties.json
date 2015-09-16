@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clearBothInputs:" : "IwanVosloo 9/16/2015 10:07",
+		"testReadonlyIsDynamic" : "IwanVosloo 9/16/2015 10:05",
+		"testRequiredIsDynamic" : "IwanVosloo 9/16/2015 10:07",
+		"testVisibilityIsDynamic" : "IwanVosloo 9/16/2015 10:04" } }

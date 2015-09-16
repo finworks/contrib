@@ -1,0 +1,16 @@
+{
+	"category" : "Wonka-Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"componentClass",
+		"initializeBlock",
+		"configureTestAppBlock" ],
+	"name" : "ParasolBrowser",
+	"pools" : [
+		 ],
+	"super" : "BPSeasideWebDriverTestCase",
+	"type" : "normal" }

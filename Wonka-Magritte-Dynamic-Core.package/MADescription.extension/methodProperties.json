@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beReadonlyOnCondition:" : "IwanVosloo 9/15/2015 14:10",
+		"beRequiredOnCondition:" : "IwanVosloo 9/15/2015 14:08",
+		"beVisibleOnCondition:" : "IwanVosloo 9/14/2015 16:26",
+		"readonly" : "IwanVosloo 9/15/2015 14:11",
+		"required" : "IwanVosloo 9/15/2015 14:09",
+		"visible" : "IwanVosloo 9/15/2015 14:06" } }

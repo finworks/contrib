@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"abortTransaction" : "IwanVosloo 08/26/2015 05:44",
-		"beginTransaction" : "IwanVosloo 08/26/2015 04:22",
-		"commitTransaction" : "IwanVosloo 08/26/2015 02:07",
-		"inTransaction" : "IwanVosloo 8/26/2015 15:23",
-		"isPharo" : "IwanVosloo 8/25/2015 16:19" },
-	"instance" : {
-		 } }

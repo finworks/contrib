@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInputDoesNotReachDomainIfValidationFails" : "IwanVosloo 9/16/2015 09:42",
+		"testInputReachesDomainIfNoErrors" : "IwanVosloo 9/16/2015 09:42",
+		"testInputRolledBackOnUIError" : "IwanVosloo 9/16/2015 09:42" } }

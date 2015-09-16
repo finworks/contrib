@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buttonLabelled:" : "IwanVosloo 9/15/2015 15:44",
+		"buttonLabelledXPath:" : "IwanVosloo 9/15/2015 15:44",
+		"checkboxLabelled:" : "IwanVosloo 9/16/2015 08:50",
+		"checkboxLabelledXPath:" : "IwanVosloo 9/16/2015 08:50",
+		"componentClass" : "IwanVosloo 9/15/2015 15:01",
+		"componentClass:" : "IwanVosloo 9/15/2015 15:02",
+		"componentUnderTest:" : "IwanVosloo 9/15/2015 15:14",
+		"configureTestApp:" : "IwanVosloo 9/16/2015 09:40",
+		"configureTestAppWith:" : "IwanVosloo 9/16/2015 09:41",
+		"ensureCheckboxLabelled:isChecked:" : "IwanVosloo 9/16/2015 08:53",
+		"initialize" : "IwanVosloo 9/16/2015 09:40",
+		"initializeComponentWith:" : "IwanVosloo 9/15/2015 15:11",
+		"inputIsPresentLabelled:" : "IwanVosloo 9/15/2015 15:45",
+		"inputLabelled:" : "IwanVosloo 9/16/2015 09:27",
+		"inputLabelledXPath:" : "IwanVosloo 9/15/2015 15:45",
+		"renderedErrors" : "IwanVosloo 9/16/2015 08:52",
+		"run:" : "IwanVosloo 9/15/2015 15:27",
+		"start" : "IwanVosloo 9/15/2015 15:00",
+		"stop" : "IwanVosloo 9/15/2015 15:00",
+		"thereAreErrors" : "IwanVosloo 9/16/2015 08:52" } }

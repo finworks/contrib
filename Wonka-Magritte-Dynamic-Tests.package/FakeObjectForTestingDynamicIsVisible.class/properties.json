@@ -1,0 +1,14 @@
+{
+	"category" : "Wonka-Magritte-Dynamic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FakeObjectForTestingDynamicIsVisible",
+	"pools" : [
+		 ],
+	"super" : "FakeObjectForTestingDynamicMagritte",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Wonka-Magritte-Transactions-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestUserError",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
