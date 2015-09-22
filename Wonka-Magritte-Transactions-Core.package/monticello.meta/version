@@ -1,1 +1,8 @@
-(name 'Wonka-Magritte-Transactions-Core-IwanVosloo.1' message 'Renamed and cleaned up ' id 'd6068d95-2032-4e7a-ae17-8949855994a4' date '16 September 2015' time '10:18:47.218781 am' author 'IwanVosloo' ancestors () stepChildren ())
+(name 'Wonka-Magritte-Transactions-Core-Iwan_Vosloo.3'
+message 'Made TransactionBoundaryFilter a bit more flecible to work in our environment'
+id '4e3e3dea-4997-4bb4-9eda-8e6bdb55ff68'
+date '2015/09/22'
+time '16:53:56.382357'
+author 'Iwan Vosloo'
+ancestors ()
+stepChildren ())
