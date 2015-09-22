@@ -4,6 +4,6 @@ commitInTransaction
         ^System commitTransaction 
           ifTrue: [
              System inTransaction
-                 ifFalse: [ System beginTransaction ]
+                 ifFalse: [ System beginTransaction ].
              true ]
           ifFalse: [ false ]
