@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfWonkaContrib",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfWonkaContrib",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

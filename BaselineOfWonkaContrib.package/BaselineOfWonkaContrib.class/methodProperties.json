@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"isMetacelloConfig" : "Iwan Vosloo 9/23/2015 17:19" },
+	"instance" : {
+		"baseline:" : "Iwan Vosloo 9/23/2015 17:24",
+		"coreGroups" : "Iwan Vosloo 9/23/2015 17:27",
+		"corePackages" : "Iwan Vosloo 9/23/2015 17:25",
+		"defineCommonForSpec:" : "Iwan Vosloo 9/23/2015 17:29",
+		"defineGemstoneForSpec:" : "Iwan Vosloo 9/23/2015 17:30",
+		"defineSqueakCommonForSpec:" : "Iwan Vosloo 9/23/2015 17:33",
+		"gemStoneGroups" : "Iwan Vosloo 9/23/2015 17:33",
+		"gemStonePackages" : "Iwan Vosloo 9/23/2015 17:32",
+		"project" : "Iwan Vosloo 9/23/2015 17:19",
+		"squeakCommonGroups" : "Iwan Vosloo 9/23/2015 17:35",
+		"squeakCommonPackages" : "Iwan Vosloo 9/23/2015 17:34",
+		"testGroups" : "Iwan Vosloo 9/23/2015 17:29",
+		"testPackages" : "Iwan Vosloo 9/23/2015 17:28" } }
