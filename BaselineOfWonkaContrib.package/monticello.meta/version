@@ -1,8 +1,8 @@
-(name 'BaselineOfWonkaContrib-Iwan_Vosloo.6'
-message 'Removed use of non-standard method in BaselineOfWonkaContrib'
-id 'f8d8fa30-ba4b-4af3-81ea-43acb838c6da'
+(name 'BaselineOfWonkaContrib-otto.7'
+message 'Added dependency on Magritte3'
+id '02aeaaaf-b060-4de5-bf6c-91523b24ab5f'
 date '2015/09/25'
-time '10:00:30.351325'
-author 'Iwan Vosloo'
+time '13:11:33.78126'
+author 'otto'
 ancestors ()
 stepChildren ())
