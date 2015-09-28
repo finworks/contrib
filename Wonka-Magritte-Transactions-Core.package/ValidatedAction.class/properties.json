@@ -1,0 +1,14 @@
+{
+	"category" : "Wonka-Magritte-Transactions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ValidatedAction",
+	"pools" : [
+		 ],
+	"super" : "ErrorHandlingAction",
+	"type" : "normal" }

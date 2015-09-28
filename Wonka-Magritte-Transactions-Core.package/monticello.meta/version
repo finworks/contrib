@@ -1,8 +1,8 @@
-(name 'Wonka-Magritte-Transactions-Core-Iwan_Vosloo.3'
-message 'Made TransactionBoundaryFilter a bit more flecible to work in our environment'
-id '4e3e3dea-4997-4bb4-9eda-8e6bdb55ff68'
-date '2015/09/22'
-time '16:53:56.382357'
+(name 'Wonka-Magritte-Transactions-Core-Iwan_Vosloo.4'
+message 'Split AbortableAction into two classes: ErrorHandlingAction (which does not do a magritte memento commit), and ValidatedAction (which always validates and, if true commits magritte)'
+id 'a107162e-32a5-4be0-9696-32f1a4011d3d'
+date '2015/09/28'
+time '11:32:59.251173'
 author 'Iwan Vosloo'
 ancestors ()
 stepChildren ())

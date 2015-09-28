@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"block" ],
-	"name" : "AbortableAction",
+		"block",
+		"errorToHandle" ],
+	"name" : "ErrorHandlingAction",
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"type" : "variable" }
+	"type" : "normal" }
