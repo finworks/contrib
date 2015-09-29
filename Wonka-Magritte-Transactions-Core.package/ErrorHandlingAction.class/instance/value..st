@@ -1,6 +1,7 @@
 evaluating
 value: component
-	[ block value: component ]
+	[ block value: component.
+	  component reset. ]
 		on: errorToHandle
 		do: [ :err | 
 			| keptError |
@@ -9,4 +10,4 @@ value: component
 				yourself.
 			GRPlatform current abortInTransaction.
 			component errors removeAll.
-			component errors add: keptError ]
+			component errors add: keptError ].
