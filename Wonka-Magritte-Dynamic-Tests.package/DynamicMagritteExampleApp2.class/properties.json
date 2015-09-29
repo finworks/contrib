@@ -1,0 +1,15 @@
+{
+	"category" : "Wonka-Magritte-Dynamic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"domainObject" ],
+	"name" : "DynamicMagritteExampleApp2",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Wonka-Magritte-Dynamic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"totalAmount",
+		"percentage" ],
+	"name" : "FakeContainedObjectForTestingDynamicMagritte",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

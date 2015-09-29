@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"initialize" : "IwanVosloo 9/29/2015 14:30" },
+	"instance" : {
+		"childComponent" : "IwanVosloo 9/29/2015 15:05",
+		"children" : "IwanVosloo 9/29/2015 14:30",
+		"domainObject" : "IwanVosloo 9/29/2015 14:30",
+		"domainObject:" : "IwanVosloo 9/29/2015 14:30",
+		"initialize" : "IwanVosloo 9/29/2015 14:40" } }
