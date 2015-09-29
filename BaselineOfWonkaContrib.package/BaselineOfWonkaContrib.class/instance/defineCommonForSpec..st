@@ -9,11 +9,17 @@ defineCommonForSpec: spec
 						operator: #=;
 						repository: 'http://www.smalltalkhub.com/mc/Magritte/Magritte3/main';
 						loads: #('Magritte-Seaside' 'Deprecated') ];
+		configuration: 'Parasol'
+			with: [ 
+					spec
+						versionString: '0.24';
+						operator: #=;
+						repository: 'http://ss3.gemstone.com/ss/Parasol' ];
 		package: 'Wonka-Magritte-Transactions-Core' with: [ spec requires: #('Magritte3') ];
 		package: 'Wonka-Magritte-Dynamic-Core' with: [ spec requires: #('Wonka-Magritte-Transactions-Core') ];
-		package: 'Wonka-Parasol';
-		package: 'Wonka-Magritte-Dynamic-Tests' with: [ spec requires: #('Wonka-Parasol') ];
-		package: 'Wonka-Magritte-Transactions-Tests' with: [ spec requires: #('Wonka-Parasol') ];
+		package: 'Wonka-Parasol-Core' with: [ spec requires: #('Parasol') ];
+		package: 'Wonka-Magritte-Dynamic-Tests' with: [ spec requires: #('Wonka-Parasol-Core') ];
+		package: 'Wonka-Magritte-Transactions-Tests' with: [ spec requires: #('Wonka-Parasol-Core') ];
 		group: 'Core' with: #('Wonka-Magritte-Transactions-Core' 'Wonka-Magritte-Dynamic-Core');
-		group: 'Tests' with: #('Wonka-Parasol' 'Wonka-Magritte-Dynamic-Tests' 'Wonka-Magritte-Transactions-Tests');
+		group: 'Tests' with: #('Wonka-Parasol-Core' 'Wonka-Magritte-Dynamic-Tests' 'Wonka-Magritte-Transactions-Tests');
 		group: 'default' with: #('Core')
