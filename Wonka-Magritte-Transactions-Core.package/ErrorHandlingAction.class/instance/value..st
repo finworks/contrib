@@ -2,7 +2,7 @@ evaluating
 value: component
 	[ block value: component.
 	  component reset. ]
-		on: errorToHandle
+		on: UserError
 		do: [ :err | 
 			| keptError |
 			keptError := MAValidationError new

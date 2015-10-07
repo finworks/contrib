@@ -1,14 +1,14 @@
 {
-	"category" : "Wonka-Magritte-Transactions-Core",
+	"category" : "Wonka-Magritte-Dynamic-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"block" ],
-	"name" : "ErrorHandlingAction",
+		 ],
+	"name" : "WonkaMagritteLibrary",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WAFileLibrary",
 	"type" : "normal" }
