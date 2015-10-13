@@ -1,3 +1,3 @@
 xpath
 checkboxLabelledXPath: label
-	^ '//label[contains(.,"' , label , '")]/input[@type="checkbox"]'
+	^ (self labelXPath: label) , '/input[@type="checkbox"]'

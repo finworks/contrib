@@ -1,26 +1,23 @@
-required
+dynamic description booleans
 testRequiredIsDynamic
 	| domainObject |
 	domainObject := FakeObjectForTestingDynamicIsRequired new.
-	ParasolBrowser new
-		componentClass: DynamicMagritteExampleApp;
-		initializeComponentWith: [ :component | component domainObject: domainObject ];
-		run: [ :browser | 
-					browser deny: domainObject toggleIsTrue.
-					self clearBothInputs: browser.
-					(browser buttonLabelled: 'Something') click.
-					browser
-						assert: browser renderedErrors
-						equals: {'Required when toggle is not true: Input is required but no input given'}.
-					(browser inputLabelled: 'Required when toggle is not true:') sendKeys: 'some input'.
-					(browser buttonLabelled: 'Something') click.
-					browser deny: browser thereAreErrors.
-					(browser buttonLabelled: 'Toggle flag') click.
-					self clearBothInputs: browser.
-					(browser buttonLabelled: 'Something') click.
-					browser
-						assert: browser renderedErrors
-						equals: {'Required when toggle is true: Input is required but no input given'}.
-					(browser inputLabelled: 'Required when toggle is true:') sendKeys: 'some input'.
-					(browser buttonLabelled: 'Something') click.
-					browser deny: browser thereAreErrors ]
+	self setupBrowserOn: DynamicMagritteExampleApp withDomainObject: domainObject.
+	browser
+		run: [
+			browser deny: domainObject toggleIsTrue.
+			self clearBothInputs: browser.
+			browser
+				clickOnButtonLabelled: 'Something';
+				assert: browser renderedErrors equals: {'Required when toggle is not true: Input is required but no input given'};
+				type: 'some input' intoInputLabelled: 'Required when toggle is not true:';
+				clickOnButtonLabelled: 'Something';
+				deny: browser thereAreErrors;
+				clickOnButtonLabelled: 'Toggle flag'.
+			self clearBothInputs: browser.
+			browser
+				clickOnButtonLabelled: 'Something';
+				assert: browser renderedErrors equals: {'Required when toggle is true: Input is required but no input given'};
+				type: 'some input' intoInputLabelled: 'Required when toggle is true:';
+				clickOnButtonLabelled: 'Something';
+				deny: browser thereAreErrors ]

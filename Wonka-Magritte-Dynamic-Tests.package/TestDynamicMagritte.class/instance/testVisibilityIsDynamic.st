@@ -1,18 +1,17 @@
-visible
+dynamic description booleans
 testVisibilityIsDynamic
 	| domainObject |
 	domainObject := FakeObjectForTestingDynamicIsVisible new.
-	ParasolBrowser new
-		componentClass: DynamicMagritteExampleApp;
-		initializeComponentWith: [ :component | component domainObject: domainObject ];
-		run: [ :browser |
-			browser deny: domainObject toggleIsTrue.
-			self deny: (browser inputIsPresentLabelled: 'Visible when toggle is true:').
-			self assert: (browser inputIsPresentLabelled: 'Visible when toggle is not true:').
-			(browser buttonLabelled: 'Toggle flag') click.
-			self assert: (browser inputIsPresentLabelled: 'Visible when toggle is true:').
-			self deny: (browser inputIsPresentLabelled: 'Visible when toggle is not true:').
-			(browser buttonLabelled: 'Toggle flag') click.
-			self deny: (browser inputIsPresentLabelled: 'Visible when toggle is true:').
-			self assert: (browser inputIsPresentLabelled: 'Visible when toggle is not true:') 
-			].
+	self setupBrowserOn: DynamicMagritteExampleApp withDomainObject: domainObject.
+	browser
+		run: [ 
+			browser
+				deny: domainObject toggleIsTrue;
+				deny: (browser inputIsPresentLabelled: 'Visible when toggle is true:');
+				assert: (browser inputIsPresentLabelled: 'Visible when toggle is not true:');
+				clickOnButtonLabelled: 'Toggle flag';
+				assert: (browser inputIsPresentLabelled: 'Visible when toggle is true:');
+				deny: (browser inputIsPresentLabelled: 'Visible when toggle is not true:');
+				clickOnButtonLabelled: 'Toggle flag';
+				deny: (browser inputIsPresentLabelled: 'Visible when toggle is true:');
+				assert: (browser inputIsPresentLabelled: 'Visible when toggle is not true:') ]

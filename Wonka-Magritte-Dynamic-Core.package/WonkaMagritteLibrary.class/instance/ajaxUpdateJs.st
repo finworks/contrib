@@ -12,11 +12,14 @@ ajaxUpdateJs
 		};
 		jQuery("body")
 			.data("ajaxqueue", ajaxqueue)
-			.on("mousedown", ".callback", ajaxqueue.cancel);
+			.on("mousedown", "input[type=''submit'']", ajaxqueue.cancel);
 		jQuery("form")
 			.submit(ajaxqueue.cancel);
-    
+
 	};
 
+	function ajaxQueue() { 
+		return jQuery("body").data("ajaxqueue");
+	};
       jQuery().ready(initializeAjaxQueue);
 	'

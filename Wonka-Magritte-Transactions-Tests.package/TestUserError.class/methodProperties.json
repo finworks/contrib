@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testInputDoesNotReachDomainIfValidationFails" : "IwanVosloo 9/16/2015 09:42",
-		"testInputReachesDomainIfNoErrors" : "IwanVosloo 9/16/2015 09:42",
-		"testInputRolledBackOnUIError" : "IwanVosloo 9/16/2015 09:42" } }
+		"inputWithLabelIsMarkedAsError:" : "IwanVosloo 10/13/2015 14:25",
+		"setUp" : "IwanVosloo 10/13/2015 13:53",
+		"testFieldsMarkedInErrorWhenUIErrorThrown" : "IwanVosloo 10/13/2015 17:01",
+		"testInputDoesNotReachDomainIfValidationFails" : "IwanVosloo 10/13/2015 17:01",
+		"testInputReachesDomainIfNoErrors" : "IwanVosloo 10/13/2015 17:01",
+		"testInputRolledBackOnUIError" : "IwanVosloo 10/13/2015 17:01" } }

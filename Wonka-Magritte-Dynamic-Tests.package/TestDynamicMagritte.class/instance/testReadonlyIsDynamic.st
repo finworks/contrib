@@ -1,18 +1,19 @@
-readonly
+dynamic description booleans
 testReadonlyIsDynamic
 	| domainObject |
 	domainObject := FakeObjectForTestingDynamicIsReadonly new.
-	ParasolBrowser new
-		componentClass: DynamicMagritteExampleApp;
-		initializeComponentWith: [ :component | component domainObject: domainObject ];
-		run: [ :browser |
-			browser deny: domainObject toggleIsTrue.
-			self assert: (browser inputIsPresentLabelled: 'Readonly when toggle is true:').
-			self deny: (browser inputIsPresentLabelled: 'Readonly when toggle is not true:').
-			(browser buttonLabelled: 'Toggle flag') click.
-			self deny: (browser inputIsPresentLabelled: 'Readonly when toggle is true:').
-			self assert: (browser inputIsPresentLabelled: 'Readonly when toggle is not true:').
-			(browser buttonLabelled: 'Toggle flag') click.
-			self assert: (browser inputIsPresentLabelled: 'Readonly when toggle is true:').
-			self deny: (browser inputIsPresentLabelled: 'Readonly when toggle is not true:') 
-			].
+	self setupBrowserOn: DynamicMagritteExampleApp withDomainObject: domainObject.
+	browser
+		run: [ 
+			browser
+				deny: domainObject toggleIsTrue;
+				deny: (self inputIsEditableLabelled: 'Readonly when toggle is not true:');
+				assert: (self inputIsEditableLabelled: 'Readonly when toggle is true:');
+				clickOnButtonLabelled: 'Toggle flag';
+				assert: domainObject toggleIsTrue;
+				assert: (self inputIsEditableLabelled: 'Readonly when toggle is not true:');
+				deny: (self inputIsEditableLabelled: 'Readonly when toggle is true:');
+				clickOnButtonLabelled: 'Toggle flag';
+				deny: domainObject toggleIsTrue;
+				deny: (self inputIsEditableLabelled: 'Readonly when toggle is not true:');
+				assert: (self inputIsEditableLabelled: 'Readonly when toggle is true:') ]

@@ -4,9 +4,11 @@ value: component
 	  component reset. ]
 		on: UserError
 		do: [ :err | 
-			| keptError |
+			| keptError relatedDescription |
+			relatedDescription := component description detect: [ :aDescription| aDescription isRelatedToUserError: err ] ifNone: [ nil ].
 			keptError := MAValidationError new
 				messageText: err messageText;
+				setDescription: relatedDescription;
 				yourself.
 			GRPlatform current abortInTransaction.
 			component errors removeAll.

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"browser",
+		"domainObject" ],
 	"name" : "TestUserError",
 	"pools" : [
 		 ],

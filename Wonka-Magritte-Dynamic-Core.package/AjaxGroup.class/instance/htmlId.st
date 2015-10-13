@@ -1,3 +1,3 @@
 as yet unclassified
-htmlIdToRefresh
+htmlId
 	^ self decoratedComponent ajaxId: 'ajaxRefresh'

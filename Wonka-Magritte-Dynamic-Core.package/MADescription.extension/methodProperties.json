@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"beAjaxUpdateTrigger" : "IwanVosloo 10/12/2015 11:20",
 		"beReadonlyOnCondition:" : "IwanVosloo 9/15/2015 14:10",
 		"beRequiredOnCondition:" : "IwanVosloo 9/15/2015 14:08",
 		"beVisibleOnCondition:" : "IwanVosloo 9/14/2015 16:26",
+		"currentCssClasses" : "IwanVosloo 10/12/2015 12:50",
+		"isAjaxUpdateTrigger" : "IwanVosloo 10/12/2015 11:21",
 		"readonly" : "IwanVosloo 9/15/2015 14:11",
 		"required" : "IwanVosloo 9/15/2015 14:09",
 		"visible" : "IwanVosloo 9/15/2015 14:06" } }

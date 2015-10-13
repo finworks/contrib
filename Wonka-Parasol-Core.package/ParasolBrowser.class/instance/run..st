@@ -1,5 +1,5 @@
 control
 run: aBlock
 	self start.
-	[ aBlock value: self ]
+	[ aBlock value ]
 		ensure: [ self stop ]
