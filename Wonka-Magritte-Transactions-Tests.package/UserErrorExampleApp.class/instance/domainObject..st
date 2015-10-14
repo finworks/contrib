@@ -1,3 +1,3 @@
-hooks
+accessing
 domainObject: anObject
 	domainObject := anObject

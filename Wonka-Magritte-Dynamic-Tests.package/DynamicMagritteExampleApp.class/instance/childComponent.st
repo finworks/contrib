@@ -1,4 +1,4 @@
-hooks
+accessing
 childComponent
 	^ domainObject asComponent
 		addValidatedForm:

@@ -1,0 +1,15 @@
+{
+	"category" : "Wonka-Magritte-Ajax-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"totalAmount",
+		"percentage" ],
+	"name" : "FakeContainedObjectForTestingAjaxMagritte",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

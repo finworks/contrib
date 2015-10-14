@@ -1,0 +1,14 @@
+{
+	"category" : "Wonka-Magritte-Ajax-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser" ],
+	"name" : "TestAjaxMagritte",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

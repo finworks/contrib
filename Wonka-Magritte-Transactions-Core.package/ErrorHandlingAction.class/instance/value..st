@@ -1,15 +1,15 @@
 evaluating
 value: component
-	[ block value: component.
-	  component reset. ]
+	[ 
+	block value: component.
+	component reset ]
 		on: UserError
 		do: [ :err | 
-			| keptError relatedDescription |
-			relatedDescription := component description detect: [ :aDescription| aDescription isRelatedToUserError: err ] ifNone: [ nil ].
+			| keptError |
 			keptError := MAValidationError new
 				messageText: err messageText;
-				setDescription: relatedDescription;
+				setDescription: (component descriptionRelatedToUserError: err);
 				yourself.
 			GRPlatform current abortInTransaction.
 			component errors removeAll.
-			component errors add: keptError ].
+			component errors add: keptError ]

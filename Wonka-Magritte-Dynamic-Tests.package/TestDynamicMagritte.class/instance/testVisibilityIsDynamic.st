@@ -1,8 +1,8 @@
-dynamic description booleans
+sunit
 testVisibilityIsDynamic
 	| domainObject |
 	domainObject := FakeObjectForTestingDynamicIsVisible new.
-	self setupBrowserOn: DynamicMagritteExampleApp withDomainObject: domainObject.
+	self setupTestAppWithDomainObject: domainObject.
 	browser
 		run: [ 
 			browser

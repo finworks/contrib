@@ -1,4 +1,4 @@
-sunit
+setup
 setUp
 	super setUp.
 	domainObject := FakeObjectForTestingUserError new.

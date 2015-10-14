@@ -1,3 +1,3 @@
-hooks
+accessing
 domainObject
 	^ domainObject

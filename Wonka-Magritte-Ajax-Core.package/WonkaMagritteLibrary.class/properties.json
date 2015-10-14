@@ -1,0 +1,14 @@
+{
+	"category" : "Wonka-Magritte-Ajax-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WonkaMagritteLibrary",
+	"pools" : [
+		 ],
+	"super" : "WAFileLibrary",
+	"type" : "normal" }

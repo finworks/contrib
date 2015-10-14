@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"amountsAreShownAs:" : "IwanVosloo 10/14/2015 08:34",
+		"setupTestAppWithDomainObject:" : "IwanVosloo 10/14/2015 08:49",
+		"testAjaxGroupIsUpdatedViaAjax" : "IwanVosloo 10/14/2015 08:48",
+		"testAjaxIsCancelledWhenSubmitButtonClicked" : "IwanVosloo 10/14/2015 08:48",
+		"testValidationErrorsBlockAjaxUpdate" : "IwanVosloo 10/14/2015 08:48" } }

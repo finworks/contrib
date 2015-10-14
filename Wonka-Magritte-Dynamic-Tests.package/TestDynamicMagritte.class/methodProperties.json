@@ -2,14 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"amountsAreShownAs:" : "IwanVosloo 10/13/2015 09:34",
 		"clearBothInputs:" : "IwanVosloo 9/16/2015 10:07",
-		"configureTestAppForAjax" : "IwanVosloo 10/13/2015 14:03",
 		"inputIsEditableLabelled:" : "IwanVosloo 10/13/2015 17:25",
-		"setupBrowserOn:withDomainObject:" : "IwanVosloo 10/13/2015 13:58",
-		"testAjaxGroupIsUpdatedViaAjax" : "IwanVosloo 10/13/2015 17:00",
-		"testAjaxIsCancelledWhenSubmitButtonClicked" : "IwanVosloo 10/13/2015 17:00",
-		"testReadonlyIsDynamic" : "IwanVosloo 10/13/2015 17:27",
-		"testRequiredIsDynamic" : "IwanVosloo 10/13/2015 17:01",
-		"testValidationErrorsBlockAjaxUpdate" : "IwanVosloo 10/13/2015 17:01",
-		"testVisibilityIsDynamic" : "IwanVosloo 10/13/2015 17:01" } }
+		"setupTestAppWithDomainObject:" : "IwanVosloo 10/14/2015 08:45",
+		"testReadonlyIsDynamic" : "IwanVosloo 10/14/2015 08:45",
+		"testRequiredIsDynamic" : "IwanVosloo 10/14/2015 08:45",
+		"testVisibilityIsDynamic" : "IwanVosloo 10/14/2015 08:45" } }

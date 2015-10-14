@@ -1,4 +1,4 @@
-initialize
+evaluating
 value: component
 	component validate
 		ifTrue: [ 

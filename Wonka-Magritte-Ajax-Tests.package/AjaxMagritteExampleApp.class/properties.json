@@ -1,0 +1,15 @@
+{
+	"category" : "Wonka-Magritte-Ajax-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"domainObject" ],
+	"name" : "AjaxMagritteExampleApp",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

@@ -1,10 +1,10 @@
-dynamic description booleans
+sunit
 testRequiredIsDynamic
 	| domainObject |
 	domainObject := FakeObjectForTestingDynamicIsRequired new.
-	self setupBrowserOn: DynamicMagritteExampleApp withDomainObject: domainObject.
+	self setupTestAppWithDomainObject: domainObject.
 	browser
-		run: [
+		run: [ 
 			browser deny: domainObject toggleIsTrue.
 			self clearBothInputs: browser.
 			browser

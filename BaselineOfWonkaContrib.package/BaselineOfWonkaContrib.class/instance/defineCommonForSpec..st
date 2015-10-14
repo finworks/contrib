@@ -22,6 +22,8 @@ defineCommonForSpec: spec
 		package: 'Wonka-Magritte-Dynamic-Core' with: [ spec requires: #('Wonka-Magritte-Transactions-Core') ];
 		package: 'Wonka-Magritte-Dynamic-Tests' with: [ spec requires: #('Wonka-Parasol-Core') ];
 		package: 'Wonka-Magritte-Transactions-Tests' with: [ spec requires: #('Wonka-Parasol-Core') ];
-		group: 'Core' with: #('Wonka-Magritte-Transactions-Core' 'Wonka-Magritte-Dynamic-Core');
-		group: 'Tests' with: #('Wonka-Parasol-Core' 'Wonka-Magritte-Dynamic-Tests' 'Wonka-Magritte-Transactions-Tests');
+		package: 'Wonka-Magritte-Ajax-Core' with: [ spec requires: #('Wonka-Magritte-Transactions-Core' 'Wonka-Magritte-Dynamic-Core') ];
+		package: 'Wonka-Magritte-Ajax-Tests' with: [ spec requires: #('Wonka-Parasol-Core') ];
+		group: 'Core' with: #('Wonka-Magritte-Ajax-Core' 'Wonka-Magritte-Transactions-Core' 'Wonka-Magritte-Dynamic-Core');
+		group: 'Tests' with: #('Wonka-Parasol-Core'  'Wonka-Magritte-Ajax-Tests'  'Wonka-Magritte-Dynamic-Tests' 'Wonka-Magritte-Transactions-Tests');
 		group: 'default' with: #('Core')
