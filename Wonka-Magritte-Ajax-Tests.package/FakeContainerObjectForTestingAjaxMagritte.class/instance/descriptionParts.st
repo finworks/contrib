@@ -1,7 +1,8 @@
 descriptions
 descriptionParts
-	<magritteDescription >
-	^ MAToManyRelationDescription new 
+	<magritteDescription>
+	^ MAToManyRelationDescription new
 		selectorAccessor: #parts;
-		classes: { FakeContainedObjectForTestingAjaxMagritte };
+		priority: 3;
+		classes: {FakeContainedObjectForTestingAjaxMagritte};
 		yourself

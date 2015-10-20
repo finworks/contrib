@@ -2,7 +2,7 @@ evaluating
 value: component
 	[ 
 	block value: component.
-	component reset ]
+	component errors isEmpty ifTrue: [ component reset ] ]
 		on: UserError
 		do: [ :err | 
 			| keptError |

@@ -4,11 +4,10 @@ updateAndRenderOn: html
 
 	| load scheduleAjaxCall |
 	load := html jQuery this load
-		selector: '#' , self htmlId , ' > *';
 		serializeChildren;
 		html: [ :r | 
-					self handleAjaxCall. 
-					r render: self decoratedComponent ];
+					self handleAjaxCall.
+					self renderNextOn: r ];
 		yourself.
 	scheduleAjaxCall := html ajaxQueue
 		call: 'schedule' with: load asFunction with: (html jQuery id: self htmlId);

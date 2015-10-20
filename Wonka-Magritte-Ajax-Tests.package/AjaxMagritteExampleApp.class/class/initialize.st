@@ -1,8 +1,8 @@
 initialize
 initialize
-	"DynamicMagritteExampleApp2 initialize"
+	"AjaxMagritteExampleApp initialize"
 
-	(WAAdmin register: self asApplicationAt: '/dynamicmagritteexample2')
+	(WAAdmin register: self asApplicationAt: '/ajaxmagritteexample')
 		addFilterFirst: (TransactionBoundaryFilter new);
 		addLibrary: JQDevelopmentLibrary;
 		addLibrary: WonkaMagritteLibrary
