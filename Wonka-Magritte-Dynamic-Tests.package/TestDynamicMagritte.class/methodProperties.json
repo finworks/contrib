@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clearBothInputs:" : "IwanVosloo 9/16/2015 10:07",
+		"clearBothInputs" : "IwanVosloo 10/28/2015 09:41",
 		"inputIsEditableLabelled:" : "IwanVosloo 10/13/2015 17:25",
 		"setupTestAppWithDomainObject:" : "IwanVosloo 10/14/2015 08:45",
 		"testReadonlyIsDynamic" : "IwanVosloo 10/14/2015 08:45",
-		"testRequiredIsDynamic" : "IwanVosloo 10/14/2015 08:45",
+		"testRequiredIsDynamic" : "IwanVosloo 10/28/2015 09:41",
 		"testVisibilityIsDynamic" : "IwanVosloo 10/14/2015 08:45" } }
