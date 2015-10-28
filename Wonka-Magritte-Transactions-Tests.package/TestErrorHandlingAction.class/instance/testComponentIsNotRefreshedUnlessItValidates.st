@@ -1,7 +1,9 @@
 sunit
 testComponentIsNotRefreshedUnlessItValidates
+	domainObject := FakeObjectForTestingUserError new.
+	self setupTestAppWithDomainObject: domainObject.
 	browser
-		run: [
+		run: [ 
 			browser
 				assert: domainObject anAttribute == nil;
 				ensureCheckboxLabelled: 'Let doSomething raise a UserErrror' isChecked: false;
@@ -10,4 +12,4 @@ testComponentIsNotRefreshedUnlessItValidates
 				assert: browser renderedErrors
 					equals: {'A string more than one chars: The string should be longer than one character'};
 				assert: domainObject anAttribute == nil;
-				assert: 	((browser inputLabelled: 'A string more than one chars:') getAttribute: 'value') equals: 'a' ]
+				assert: ((browser inputLabelled: 'A string more than one chars:') getAttribute: 'value') equals: 'a' ]

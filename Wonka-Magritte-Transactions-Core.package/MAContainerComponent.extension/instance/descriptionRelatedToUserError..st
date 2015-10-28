@@ -1,3 +1,7 @@
 *Wonka-Magritte-Transactions-Core
 descriptionRelatedToUserError: error
-	^ self magritteDescription detect: [ :aDescription | aDescription isRelatedToUserError: error ] ifNone: [ nil ]
+	 | related |
+       related := OrderedCollection new.
+       self
+               withContainersDo: [ :each | related addAll: (each magritteDescription select: [ :aDescription | aDescription isRelatedToUserError: error ]) ].
+       ^ related ifNotEmpty: [ related first ] ifEmpty: [ nil ]

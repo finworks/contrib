@@ -1,5 +1,7 @@
 sunit
 testInputDoesNotReachDomainIfValidationFails
+	domainObject := FakeObjectForTestingUserError new.
+	self setUpTestAppWithDomainObject: domainObject.
 	browser
 		run: [
 			browser

@@ -1,5 +1,7 @@
 sunit
 testInputRolledBackOnUIError
+	domainObject := FakeObjectForTestingUserError new.
+	self setUpTestAppWithDomainObject: domainObject.
 	browser
 		run: [
 			browser

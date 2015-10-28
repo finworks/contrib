@@ -1,9 +1,7 @@
 setup
-setUp
-	super setUp.
-	domainObject := FakeObjectForTestingUserError new.
+setUpTestAppWithDomainObject: anObject
 	browser := ParasolBrowser new
 		componentClass: UserErrorExampleApp;
 		configureTestAppWith: [ :testApp | testApp addFilterFirst: TransactionBoundaryFilter new ];
-		initializeComponentWith: [ :component | component domainObject: domainObject ];
-		yourself.
+		initializeComponentWith: [ :component | component domainObject: anObject ];
+		yourself

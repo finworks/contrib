@@ -6,5 +6,4 @@ descriptionAnAttribute
 		label: 'A string more than one chars';
 		beRequired;
 		addCondition: [ :i | i size > 1 ] labelled: 'The string should be longer than one character';
-		beRelatedToUserErrorIf: [ :e| true ];
 		yourself

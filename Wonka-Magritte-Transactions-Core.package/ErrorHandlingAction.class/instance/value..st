@@ -2,14 +2,11 @@ evaluating
 value: component
 	[ 
 	block value: component.
-	component errors isEmpty ifTrue: [ component reset ] ]
+	component errors isEmpty
+		ifTrue: [ component reset ] ]
 		on: UserError
 		do: [ :err | 
-			| keptError |
-			keptError := MAValidationError new
-				messageText: err messageText;
-				setDescription: (component descriptionRelatedToUserError: err);
-				yourself.
+			err setDescription: (component descriptionRelatedToUserError: err).
 			GRPlatform current abortInTransaction.
 			component errors removeAll.
-			component errors add: keptError ]
+			component errors add: err ]
