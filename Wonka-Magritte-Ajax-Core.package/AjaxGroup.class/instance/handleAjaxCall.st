@@ -2,9 +2,9 @@ processing
 handleAjaxCall
 	| containerComponent |
 	containerComponent := self decoratedComponent.
-	containerComponent validate
+	containerComponent commitValidatedInput.
+	"containerComponent errors isEmpty
 		ifTrue: [ 
 			containerComponent
-				commit;
 				rebuild ].
-	
+	"

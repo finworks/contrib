@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"totalAmount",
-		"parts",
-		"submitted",
-		"relatedObject",
-		"somethingThatCanBeInvalid" ],
-	"name" : "FakeContainerObjectForTestingAjaxMagritte",
+		"something" ],
+	"name" : "FakeRelatedObjectForTestingAjaxMagritte",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -1,0 +1,3 @@
+*Wonka-Magritte-Ajax-Core
+commitValidatedReportingErrorsTo: aCollectionOfErrors
+	component commitValidatedReportingErrorsTo: aCollectionOfErrors

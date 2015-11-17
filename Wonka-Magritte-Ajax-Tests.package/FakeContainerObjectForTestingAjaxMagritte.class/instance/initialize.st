@@ -5,3 +5,5 @@ initialize
 	                FakeContainedObjectForTestingAjaxMagritte new percentage: 30; yourself. }.
 	totalAmount := 0.0.
 	submitted := false.
+	relatedObject := FakeRelatedObjectForTestingAjaxMagritte new.
+	somethingThatCanBeInvalid := 'somethingThatCanBeInvalid'

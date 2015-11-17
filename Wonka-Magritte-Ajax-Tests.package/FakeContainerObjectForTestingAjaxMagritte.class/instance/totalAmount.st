@@ -1,5 +1,3 @@
 accessing
 totalAmount
 	^totalAmount
-	
-	
