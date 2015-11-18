@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"commitValidatedReportingErrorsTo:" : "IwanVosloo 11/17/2015 06:06" } }
+		"commitValidatedReportingErrorsTo:validateOnly:" : "IwanVosloo 11/18/2015 14:14",
+		"rebuildValidParts" : "IwanVosloo 11/18/2015 14:05" } }

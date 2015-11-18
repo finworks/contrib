@@ -1,6 +1,6 @@
 control
 start
-	BPPlatform current ensureSeasideServerRunning.
+	BPSmalltalkPlatform current ensureSeasideServerRunning.
 	self startTestApp.
 	driver := BPWebDriverManagerResource current
 				driverWithCapabilities: self desiredDriverBrowserCapabilities

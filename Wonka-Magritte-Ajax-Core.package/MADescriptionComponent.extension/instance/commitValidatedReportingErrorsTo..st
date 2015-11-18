@@ -1,2 +1,0 @@
-*Wonka-Magritte-Ajax-Core
-commitValidatedReportingErrorsTo: aCollectionOfErrors

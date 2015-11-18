@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"amountsAreShownAs:" : "IwanVosloo 10/14/2015 08:34",
+		"amountsAreShownAs:" : "IwanVosloo 11/18/2015 08:30",
 		"setupTestAppWithDomainObject:" : "IwanVosloo 10/14/2015 08:49",
 		"testAjaxGroupIsUpdatedViaAjax" : "IwanVosloo 10/14/2015 08:48",
 		"testAjaxIsCancelledWhenSubmitButtonClicked" : "IwanVosloo 10/14/2015 08:48",
-		"testValidationErrorsBlockAjaxUpdate" : "IwanVosloo 10/14/2015 08:48" } }
+		"testInvalidInputOnDisappearingInternalEditorIsIgnored" : "IwanVosloo 11/18/2015 15:50",
+		"testInvalidInputOnDisappearingInternalEditorIsIgnoredOnSubsequentNormalSubmit" : "IwanVosloo 11/18/2015 16:28",
+		"testValidationErrorsBlockAjaxUpdate" : "IwanVosloo 11/18/2015 16:13",
+		"testValidationErrorsOnInternalEditorDoNotBlockAjaxUpdate" : "IwanVosloo 11/18/2015 16:14",
+		"testValidationErrorsOnUnRelatedElementOnSameContainerComponentDoNotBlockAjaxUpdate" : "IwanVosloo 11/18/2015 16:15" } }

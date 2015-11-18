@@ -1,3 +1,3 @@
 accessing
 somethingThatCanBeInvalid: aString
-	somethingThatCanBeInvalid := aString
+	somethingThatCanBeInvalid := aString.

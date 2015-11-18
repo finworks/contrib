@@ -9,4 +9,6 @@ testValidationErrorsBlockAjaxUpdate
 				assert: (self amountsAreShownAs: #(0.0 0.0));
 				type: 'invalid input for a number' intoInputLabelled: 'Total amount:';
 				fireOnChangeOnInputLabelled: 'Total amount:';
-				assert: (self amountsAreShownAs: #(0.0 0.0)) ]
+				assert: (self amountsAreShownAs: #(0.0 0.0));
+				assert: browser renderedErrors equals: {'Total amount: Invalid input given'};
+				assert: (browser inputLabelled: 'Total amount:' hasValue: 'invalid input for a number') ]

@@ -10,7 +10,8 @@
 		"parts",
 		"submitted",
 		"relatedObject",
-		"somethingThatCanBeInvalid" ],
+		"somethingThatCanBeInvalid",
+		"showRelatedObject" ],
 	"name" : "FakeContainerObjectForTestingAjaxMagritte",
 	"pools" : [
 		 ],

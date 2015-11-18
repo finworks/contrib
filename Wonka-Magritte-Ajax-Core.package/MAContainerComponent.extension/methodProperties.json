@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"commitValidatedInput" : "IwanVosloo 11/17/2015 06:07",
-		"commitValidatedReportingErrorsTo:" : "IwanVosloo 11/17/2015 06:07",
-		"rebuild" : "IwanVosloo 10/6/2015 12:30" } }
+		"areAllVisibleValid" : "IwanVosloo 11/18/2015 14:14",
+		"commitValidatedInput" : "IwanVosloo 11/18/2015 14:12",
+		"commitValidatedReportingErrorsTo:validateOnly:" : "IwanVosloo 11/18/2015 15:32",
+		"rebuild" : "IwanVosloo 10/6/2015 12:30",
+		"rebuildValidParts" : "IwanVosloo 11/18/2015 16:21" } }

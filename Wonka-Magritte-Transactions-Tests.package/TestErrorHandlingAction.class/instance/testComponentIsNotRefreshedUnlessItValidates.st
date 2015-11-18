@@ -12,4 +12,5 @@ testComponentIsNotRefreshedUnlessItValidates
 				assert: browser renderedErrors
 					equals: {'A string more than one chars: The string should be longer than one character'};
 				assert: domainObject anAttribute == nil;
-				assert: ((browser inputLabelled: 'A string more than one chars:') getAttribute: 'value') equals: 'a' ]
+				assert: (browser inputLabelled: 'A string more than one chars:' hasValue: 'a')
+]
