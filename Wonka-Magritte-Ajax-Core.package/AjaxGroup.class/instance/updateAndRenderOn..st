@@ -12,4 +12,7 @@ updateAndRenderOn: html
 	scheduleAjaxCall := html ajaxQueue
 		call: 'schedule' with: load asFunction with: (html jQuery id: self htmlId);
 		yourself.
-	^ scheduleAjaxCall
+	^ html javascript
+               << scheduleAjaxCall;
+               << html jQuery event stopPropagation;
+               yourself

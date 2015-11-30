@@ -1,12 +1,12 @@
 *Wonka-Magritte-Ajax-Core
-commitValidatedReportingErrorsTo: aCollectionOfErrors validateOnly: aBoolean
-	^ (super commitValidatedReportingErrorsTo: aCollectionOfErrors validateOnly: aBoolean)
+validateDynamicallyToErrors: aCollectionOfErrors commitAlso: aBoolean
+	^ (super validateDynamicallyToErrors: aCollectionOfErrors commitAlso: aBoolean)
 		and: [ 
 			| numberOfErrors |
 			numberOfErrors := aCollectionOfErrors size.
 			self
 				onValidationError: [ 
 					memento validateDescription: description.
-					aBoolean ifFalse: [memento commitDescription: description] ]
+					aBoolean ifTrue: [memento commitDescription: description] ]
 				addTo: aCollectionOfErrors.
 			numberOfErrors = aCollectionOfErrors size ]

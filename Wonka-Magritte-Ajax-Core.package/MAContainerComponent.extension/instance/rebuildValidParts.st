@@ -1,7 +1,7 @@
 *Wonka-Magritte-Ajax-Core
 rebuildValidParts
 	self areAllVisibleValid
-		ifTrue: [ self rebuild ]
+		ifTrue: [ self memento reset. self rebuild ]
 		ifFalse: [ 
 			self children
 				do: [ :each | 

@@ -4,4 +4,4 @@ value: component
 		ifTrue: [ 
 			GRPlatform current commitInTransaction.
 			component commit.
-			super value: component ]
+			self safelyValue: component ]

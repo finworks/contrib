@@ -3,4 +3,6 @@ rebuildValidParts
 	component
 		ifNotNilDo: [ :innerComponent | 
 			innerComponent areAllVisibleValid
-				ifTrue: [ component := self buildComponent ] ]
+				ifTrue: [ component := self buildComponent ]
+				ifFalse: [ component rebuildValidParts ]
+				 ]

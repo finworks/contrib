@@ -2,5 +2,5 @@
 areAllVisibleValid
 	| visibleErrors |
 	visibleErrors := OrderedCollection new.
-	self commitValidatedReportingErrorsTo: visibleErrors validateOnly: true.
+	self shouldBeValidated ifTrue: [ self validateDynamicallyToErrors: visibleErrors commitAlso: false ].
 	^ visibleErrors isEmpty

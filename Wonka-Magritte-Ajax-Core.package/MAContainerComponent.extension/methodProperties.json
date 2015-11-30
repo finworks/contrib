@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"areAllVisibleValid" : "IwanVosloo 11/18/2015 14:14",
-		"commitValidatedInput" : "IwanVosloo 11/18/2015 14:12",
-		"commitValidatedReportingErrorsTo:validateOnly:" : "IwanVosloo 11/18/2015 15:32",
+		"commitValidatedInput" : "IwanVosloo 11/30/2015 17:02",
 		"rebuild" : "IwanVosloo 10/6/2015 12:30",
-		"rebuildValidParts" : "IwanVosloo 11/18/2015 16:21" } }
+		"rebuildValidParts" : "IwanVosloo 11/23/2015 13:47",
+		"validateDynamicallyToErrors:commitAlso:" : "IwanVosloo 11/30/2015 17:02" } }
