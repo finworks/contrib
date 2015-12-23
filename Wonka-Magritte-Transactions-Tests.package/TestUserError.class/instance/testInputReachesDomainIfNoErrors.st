@@ -1,9 +1,9 @@
 sunit
 testInputReachesDomainIfNoErrors
 	domainObject := FakeObjectForTestingUserError new.
-	self setUpTestAppWithDomainObject: domainObject.
+	self setUpTestAppWithDomainObject: domainObject andApplicationClass: UserErrorExampleApp.
 	browser
-		run: [
+		run: [ 
 			browser
 				assert: domainObject anAttribute == nil;
 				ensureCheckboxLabelled: 'Let doSomething raise a UserErrror' isChecked: false;

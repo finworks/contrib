@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"anAttribute",
-		"raiseError",
-		"errorClassToRaise" ],
-	"name" : "FakeObjectForTestingUserError",
+		 ],
+	"name" : "FakeObjectForTestingUserErrorInSetter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "FakeObjectForTestingUserError",
 	"type" : "normal" }

@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"browser",
-		"domainObject" ],
-	"name" : "TestErrorHandlingAction",
+		 ],
+	"name" : "AfterHandlingActionsExampleApp",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "UserErrorExampleApp",
 	"type" : "normal" }

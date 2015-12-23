@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"amountsAreShownAs:" : "IwanVosloo 11/18/2015 08:30",
+		"amountsAreShownAs:" : "IwanVosloo 12/23/2015 10:47",
 		"setupTestAppWithDomainObject:" : "IwanVosloo 10/14/2015 08:49",
-		"testAjaxGroupIsUpdatedViaAjax" : "IwanVosloo 10/14/2015 08:48",
-		"testAjaxIsCancelledWhenSubmitButtonClicked" : "IwanVosloo 10/14/2015 08:48",
-		"testInvalidInputOnDisappearingInternalEditorIsIgnored" : "IwanVosloo 11/18/2015 15:50",
-		"testInvalidInputOnDisappearingInternalEditorIsIgnoredOnSubsequentNormalSubmit" : "IwanVosloo 11/18/2015 16:28",
-		"testValidationErrorsBlockAjaxUpdate" : "IwanVosloo 11/18/2015 16:13",
-		"testValidationErrorsOnInternalEditorDoNotBlockAjaxUpdate" : "IwanVosloo 11/18/2015 16:14",
-		"testValidationErrorsOnUnRelatedElementOnSameContainerComponentDoNotBlockAjaxUpdate" : "IwanVosloo 11/18/2015 16:15" } }
+		"testAjaxGroupIsUpdatedViaAjax" : "IwanVosloo 12/23/2015 09:47",
+		"testAjaxIsCancelledWhenSubmitButtonClicked" : "IwanVosloo 12/23/2015 09:48",
+		"testInvalidInputOnDisappearingInternalEditorIsIgnored" : "IwanVosloo 12/23/2015 09:48",
+		"testInvalidInputOnDisappearingInternalEditorIsIgnoredOnSubsequentNormalSubmit" : "IwanVosloo 12/23/2015 09:49",
+		"testValidationErrorsBlockAjaxUpdate" : "IwanVosloo 12/23/2015 09:49",
+		"testValidationErrorsOnInternalEditorDoNotBlockAjaxUpdate" : "IwanVosloo 12/23/2015 09:49",
+		"testValidationErrorsOnUnRelatedElementOnSameContainerComponentDoNotBlockAjaxUpdate" : "IwanVosloo 12/23/2015 09:50" } }

@@ -1,4 +1,4 @@
 evaluating
 value: component
 	GRPlatform current commitInTransaction.
-	^ self safelyValue: component.
+	^ self safelyValue: block withComponent: component

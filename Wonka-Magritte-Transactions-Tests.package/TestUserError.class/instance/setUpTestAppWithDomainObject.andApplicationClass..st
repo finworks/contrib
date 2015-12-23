@@ -1,7 +1,7 @@
 setup
-setUpTestAppWithDomainObject: anObject
+setUpTestAppWithDomainObject: anObject andApplicationClass: anApplicationClass
 	browser := ParasolBrowser new
-		componentClass: UserErrorExampleApp;
+		componentClass: anApplicationClass;
 		configureTestAppWith: [ :testApp | testApp addFilterFirst: TransactionBoundaryFilter new ];
 		initializeComponentWith: [ :component | component domainObject: anObject ];
 		yourself

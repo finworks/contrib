@@ -1,7 +1,7 @@
 sunit
 testFieldsMarkedInErrorWhenUIErrorThrown
 	domainObject := FakeObjectForTestingRelatedUserErrors new.
-	self setUpTestAppWithDomainObject: domainObject.
+	self setUpTestAppWithDomainObject: domainObject andApplicationClass: UserErrorExampleApp.
 	browser
 		run: [ 
 			browser

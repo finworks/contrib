@@ -3,5 +3,9 @@ value: component
 	component validate
 		ifTrue: [ 
 			GRPlatform current commitInTransaction.
-			component commit.
-			self safelyValue: component ]
+			self
+				safelyValue: [ :c | 
+					component commit.
+					block value: component ] 
+				withComponent: component
+				]

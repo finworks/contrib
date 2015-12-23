@@ -3,8 +3,11 @@
 		 },
 	"instance" : {
 		"inputWithLabelIsMarkedAsError:" : "IwanVosloo 10/13/2015 14:25",
-		"setUpTestAppWithDomainObject:" : "IwanVosloo 10/27/2015 16:24",
-		"testFieldsMarkedInErrorWhenUIErrorThrown" : "IwanVosloo 10/27/2015 16:47",
-		"testInputDoesNotReachDomainIfValidationFails" : "IwanVosloo 10/27/2015 16:25",
-		"testInputReachesDomainIfNoErrors" : "IwanVosloo 10/27/2015 16:25",
-		"testInputRolledBackOnUIError" : "IwanVosloo 10/27/2015 16:25" } }
+		"setUpTestAppWithDomainObject:andApplicationClass:" : "IwanVosloo 12/21/2015 15:38",
+		"testComponentIsNotRefreshedUnlessItValidates" : "IwanVosloo 12/21/2015 15:49",
+		"testDoActionAfterHandlingSpecificTypeOfExceptionOrSubclass" : "IwanVosloo 12/21/2015 15:40",
+		"testFieldsMarkedInErrorWhenUIErrorThrown" : "IwanVosloo 12/21/2015 15:38",
+		"testInputDoesNotReachDomainIfValidationFails" : "IwanVosloo 12/21/2015 15:38",
+		"testInputReachesDomainIfNoErrors" : "IwanVosloo 12/21/2015 15:38",
+		"testInputRolledBackOnUserError" : "IwanVosloo 12/21/2015 15:38",
+		"testInputRolledBackOnUserErrorInSetterToo" : "IwanVosloo 12/21/2015 15:38" } }

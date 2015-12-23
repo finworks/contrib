@@ -1,7 +1,7 @@
 evaluating
-safelyValue: component
+safelyValue: aBlock withComponent: component
 	[ 
-	block value: component.
+	aBlock value: component.
 	component errors isEmpty
 		ifTrue: [ component reset ] ]
 		on: UserError
@@ -9,4 +9,5 @@ safelyValue: component
 			err setDescription: (component descriptionRelatedToUserError: err).
 			GRPlatform current abortInTransaction.
 			component errors removeAll.
-			component errors add: err ]
+			component errors add: err.
+			(self afterHandlerForException: err) value: component ]

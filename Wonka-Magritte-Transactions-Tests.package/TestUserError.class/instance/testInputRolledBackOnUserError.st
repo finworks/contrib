@@ -1,9 +1,9 @@
 sunit
-testInputRolledBackOnUIError
+testInputRolledBackOnUserError
 	domainObject := FakeObjectForTestingUserError new.
-	self setUpTestAppWithDomainObject: domainObject.
+	self setUpTestAppWithDomainObject: domainObject andApplicationClass: UserErrorExampleApp.
 	browser
-		run: [
+		run: [ 
 			browser
 				ensureCheckboxLabelled: 'Let doSomething raise a UserErrror' isChecked: true;
 				type: 'ABCDEF' intoInputLabelled: 'A string more than one chars:';
