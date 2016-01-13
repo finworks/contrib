@@ -6,6 +6,7 @@
 		"setUpTestAppWithDomainObject:andApplicationClass:" : "IwanVosloo 12/21/2015 15:38",
 		"testComponentIsNotRefreshedUnlessItValidates" : "IwanVosloo 12/21/2015 15:49",
 		"testDoActionAfterHandlingSpecificTypeOfExceptionOrSubclass" : "IwanVosloo 12/21/2015 15:40",
+		"testExtraValidationBeforeCommit" : "IwanVosloo 1/13/2016 14:40",
 		"testFieldsMarkedInErrorWhenUIErrorThrown" : "IwanVosloo 12/21/2015 15:38",
 		"testInputDoesNotReachDomainIfValidationFails" : "IwanVosloo 12/21/2015 15:38",
 		"testInputReachesDomainIfNoErrors" : "IwanVosloo 12/21/2015 15:38",

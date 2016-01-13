@@ -1,6 +1,6 @@
 evaluating
 value: component
-	component validate
+	(validationBlocks allSatisfy: [ :validationBlock| validationBlock value: component ])
 		ifTrue: [ 
 			GRPlatform current commitInTransaction.
 			self
