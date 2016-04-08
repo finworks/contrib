@@ -5,6 +5,7 @@
 		"afterHandlerForException:" : "IwanVosloo 10/27/2015 16:51:39.598931",
 		"afterHandling:alsoDo:" : "IwanVosloo 10/27/2015 16:51:39.598931",
 		"initialize" : "IwanVosloo 10/27/2015 16:51:39.598931",
+		"commitInTransaction" : "IwanVosloo 04/08/2016 16:51:39.598931",
 		"safelyValue:withComponent:" : "IwanVosloo 10/27/2015 16:51:39.598931",
 		"value:" : "IwanVosloo 10/27/2015 16:07",
 		"with:" : "Iwan Vosloo 9/28/2015 10:22" } }
